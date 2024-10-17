@@ -1,0 +1,23 @@
+Dessa Shapiro
+
+classes:
+ballot
+candidate
+party
+race
+
+Candidate 
+    name
+    political affiliation
+        democrate
+        republican  
+        working family
+        libertarian
+        Independent
+    position
+
+Positions
+    mayor
+    sherif
+    judge
+    assembly member

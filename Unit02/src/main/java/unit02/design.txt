@@ -1,0 +1,18 @@
+Ship, Weapon, SW battle game, hull rating, shilds, damage, recharage rate, time, armamentcolor, heavy, normal, into
+
+Ship
+    name
+    hull rating
+    shields
+    weopons
+
+    take damage
+    recharge shields
+
+Weapon
+    name
+    damage type
+    damage amount
+    color
+
+    fire
