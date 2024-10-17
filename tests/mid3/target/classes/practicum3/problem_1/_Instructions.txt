@@ -1,0 +1,7 @@
+(30 points)
+
+Using the graph shown in "dijkstras.png"
+Complete the Dijkstra's Shortest Path Diagram for Vertex A -> Vertex H in "dijkstras_diagram.md"
+Use the "Table Editor" to make your life easier when completing the table.
+Make sure to "Insert table as markdown" to save your work. 
+Below the table, update the Path and Distance

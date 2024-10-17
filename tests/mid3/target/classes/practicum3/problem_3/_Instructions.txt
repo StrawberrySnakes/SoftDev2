@@ -1,0 +1,30 @@
+(40 points)
+
+Given a list of integers and an empty list, divide the integers between the two
+lists such that the sum of the two lists are equal.
+For example,
+    Given: [3,9,4,3,1] []
+    A Solution: [3,4,3] [9,1]
+
+You have been provided a partial backtracking configuration in
+SplitEqualSum.java.  You are to implement the following backtracker
+configuration methods to solve the problem or determine no solution exists:
+    getSuccessors()
+    isValid()
+    isGoal()
+    toString()
+        format is <sum list 1><list 1> <sum list 2><list 2>
+        Example: 10[3, 4, 3] 10[9, 1]
+
+For a valid solution, neither list can be empty.  For example,
+[0] [] is not a valid solution.
+
+You may add attributes or methods as needed.
+
+Hint: Lists have a copy constructor, for example
+    List<Integer> listCopy = new ArrayList<>(list);
+Hint: For getSuccessors() use a loop to move numbers
+one at a time from the first list to the second list
+
+A main has been provided for manual testing and debugging.  A more comprehensive
+test suite has been provided in SplitEqualSumTest.java

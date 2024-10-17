@@ -1,0 +1,24 @@
+(30 points)
+
+Spend a few minutes examining the TempConverter interface that 
+has been provided for you. It is a functional interface that defines a
+single method meant to convert temperatures from one scale to another. For
+example, one possible implementation would convert from degrees Celsius to
+degrees Fahrenheit, e.g. 10.5 C -> 50.9 F.
+
+The formulae for converting between scales are as follows:
+
+C to F: C * 9/5 + 32 
+F to C: (F - 32) * 5/9
+F to K: (F - 32) * 5/9 + 273.15 
+K to F: (K - 273.15) * 9/5 + 32
+
+Fill out the Converter class with the following:
+- Define a public static inner class that converts from C to F
+- Define a public static variable "inner" which references an instance of the above inner class
+- Define a public static variable "anonymous" which uses an anonymous class to convert from F to C
+- Define a public static variable "lambda" which uses an lambda to convert from F to K
+- Define a public static method in Converter which converts from K to F
+- Define a public static variable "methodref" which provides a method reference to the K to F method
+
+Run the provided JUnit tests to exercise your solutions
